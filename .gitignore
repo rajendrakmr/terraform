@@ -1,0 +1,30 @@
+ 
+*.tfstate
+*.tfstate.backup 
+*.tfplan
+
+# Ignore provider cache
+.terraform/
+.terraform.lock.hcl
+
+# Ignore private keys (important for security!)
+day03/terra_auto_key
+day03/terra_auto_key.pub
+day02/day02key
+day02/day02key.pub
+
+day02/terrakey
+day02/terrakey.pub
+
+# Ignore SSH keys and credentials
+*.pem
+*.key
+*.crt
+
+# Ignore environment files (secrets)
+.env
+*.envrc
+
+# Ignore variable files with sensitive data
+terraform.tfvars
+*.tfvars
