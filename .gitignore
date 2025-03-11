@@ -13,8 +13,8 @@ day03/terra_auto_key.pub
 day02/day02key
 day02/day02key.pub
 
-day02/terrakey
-day02/terrakey.pub
+day01/terrakey
+day01/terrakey.pub
 
 # Ignore SSH keys and credentials
 *.pem
